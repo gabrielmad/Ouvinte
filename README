@@ -1,0 +1,22 @@
+Coursework project developed using Perl, JavaScript, MongoDB, eSpeak, mbrola, oggenc, lame and Adobre Flash.
+
+It's a Screen Reader Accessibility Tool to be embed in the source of Web Pages. Once it works "in the cloud",
+there is no need of prior installation or more technical skill then inserting a JavaScript code to the target
+page (or its template):
+
+
+-----8<-----
+<script language="JavaScript" src="http://ouvinte.net/javascript"></script>
+----->8-----
+
+Optionally, you can configure the Acessibility Bar:
+
+-----8<-----
+<script language="JavaScript">
+  OuvinteTextActive   = "<img src='x.gif' alt='Active accessibility' />";
+  OuvinteTextDeactive = "<img src='y.gif' alt='Deactive accessibility' />";
+  OuvinteContentText  = "Skip to main content";
+  OuvinteContentID    = ["content"];
+  ShowOuvinteBar      = false;
+</script>
+----->8-----
